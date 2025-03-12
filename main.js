@@ -59,7 +59,7 @@ function typeText() {
 function fillScreen() {
     ctx.fillStyle = "black"; // Change this to any color you want
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(gin_img, 180, 0)
+    ctx.drawImage(gin_img, 80, 0)
 }
 
 typeText();
